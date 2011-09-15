@@ -26,17 +26,17 @@
 		9BCD31BF142244DA0097D07C /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCD31C3142244DA0097D07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BCD31C5142244DA0097D07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9BCD31C9142244DA0097D07C /* DatingApp-Info.plist */ = {isa = PBXFileReference; path = "DatingApp-Info.plist"; sourceTree = "<group>"; };
+		9BCD31C9142244DA0097D07C /* DatingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatingApp-Info.plist"; sourceTree = "<group>"; };
 		9BCD31CB142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BCD31CD142244DA0097D07C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BCD31CF142244DA0097D07C /* DatingApp-Prefix.pch */ = {isa = PBXFileReference; path = "DatingApp-Prefix.pch"; sourceTree = "<group>"; };
-		9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */ = {isa = PBXFileReference; path = dataAppAppDelegate.h; sourceTree = "<group>"; };
+		9BCD31CF142244DA0097D07C /* DatingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatingApp-Prefix.pch"; sourceTree = "<group>"; };
+		9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataAppAppDelegate.h; sourceTree = "<group>"; };
 		9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppAppDelegate.m; sourceTree = "<group>"; };
-		9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */ = {isa = PBXFileReference; path = dataAppFirstViewController.h; sourceTree = "<group>"; };
+		9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataAppFirstViewController.h; sourceTree = "<group>"; };
 		9BCD31D4142244DA0097D07C /* dataAppFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppFirstViewController.m; sourceTree = "<group>"; };
 		9BCD31D6142244DA0097D07C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		9BCD31D8142244DA0097D07C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9BCD31DA142244DA0097D07C /* dataAppSecondViewController.h */ = {isa = PBXFileReference; path = dataAppSecondViewController.h; sourceTree = "<group>"; };
+		9BCD31DA142244DA0097D07C /* dataAppSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataAppSecondViewController.h; sourceTree = "<group>"; };
 		9BCD31DB142244DA0097D07C /* dataAppSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppSecondViewController.m; sourceTree = "<group>"; };
 		9BCD31DD142244DA0097D07C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9BCD31DF142244DA0097D07C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -86,6 +86,7 @@
 		9BCD31C7142244DA0097D07C /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
+				9BCD31EC1422479A0097D07C /* New Group */,
 				9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */,
 				9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */,
 				9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */,
@@ -112,6 +113,13 @@
 				9BCD31CF142244DA0097D07C /* DatingApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCD31EC1422479A0097D07C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
