@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BCD31C4142244DA0097D07C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCD31C3142244DA0097D07C /* UIKit.framework */; };
+		9BCD31C6142244DA0097D07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCD31C5142244DA0097D07C /* Foundation.framework */; };
+		9BCD31CC142244DA0097D07C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31CA142244DA0097D07C /* InfoPlist.strings */; };
+		9BCD31CE142244DA0097D07C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD31CD142244DA0097D07C /* main.m */; };
+		9BCD31D2142244DA0097D07C /* dataAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */; };
+		9BCD31D5142244DA0097D07C /* dataAppFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD31D4142244DA0097D07C /* dataAppFirstViewController.m */; };
+		9BCD31D7142244DA0097D07C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31D6142244DA0097D07C /* first.png */; };
+		9BCD31D9142244DA0097D07C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31D8142244DA0097D07C /* first@2x.png */; };
+		9BCD31DC142244DA0097D07C /* dataAppSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD31DB142244DA0097D07C /* dataAppSecondViewController.m */; };
+		9BCD31DE142244DA0097D07C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31DD142244DA0097D07C /* second.png */; };
+		9BCD31E0142244DA0097D07C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31DF142244DA0097D07C /* second@2x.png */; };
+		9BCD31E3142244DA0097D07C /* dataAppFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31E1142244DA0097D07C /* dataAppFirstViewController.xib */; };
+		9BCD31E6142244DA0097D07C /* dataAppSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31E4142244DA0097D07C /* dataAppSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BCD31BF142244DA0097D07C /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCD31C3142244DA0097D07C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BCD31C5142244DA0097D07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BCD31C9142244DA0097D07C /* DatingApp-Info.plist */ = {isa = PBXFileReference; path = "DatingApp-Info.plist"; sourceTree = "<group>"; };
+		9BCD31CB142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BCD31CD142244DA0097D07C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCD31CF142244DA0097D07C /* DatingApp-Prefix.pch */ = {isa = PBXFileReference; path = "DatingApp-Prefix.pch"; sourceTree = "<group>"; };
+		9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */ = {isa = PBXFileReference; path = dataAppAppDelegate.h; sourceTree = "<group>"; };
+		9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppAppDelegate.m; sourceTree = "<group>"; };
+		9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */ = {isa = PBXFileReference; path = dataAppFirstViewController.h; sourceTree = "<group>"; };
+		9BCD31D4142244DA0097D07C /* dataAppFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppFirstViewController.m; sourceTree = "<group>"; };
+		9BCD31D6142244DA0097D07C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9BCD31D8142244DA0097D07C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9BCD31DA142244DA0097D07C /* dataAppSecondViewController.h */ = {isa = PBXFileReference; path = dataAppSecondViewController.h; sourceTree = "<group>"; };
+		9BCD31DB142244DA0097D07C /* dataAppSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataAppSecondViewController.m; sourceTree = "<group>"; };
+		9BCD31DD142244DA0097D07C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9BCD31DF142244DA0097D07C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9BCD31E2142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dataAppFirstViewController.xib; sourceTree = "<group>"; };
+		9BCD31E5142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dataAppSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCD31BC142244DA0097D07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCD31C4142244DA0097D07C /* UIKit.framework in Frameworks */,
+				9BCD31C6142244DA0097D07C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCD31B4142244D90097D07C = {
+			isa = PBXGroup;
+			children = (
+				9BCD31C7142244DA0097D07C /* DatingApp */,
+				9BCD31C2142244DA0097D07C /* Frameworks */,
+				9BCD31C0142244DA0097D07C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCD31C0142244DA0097D07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD31BF142244DA0097D07C /* DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCD31C2142244DA0097D07C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD31C3142244DA0097D07C /* UIKit.framework */,
+				9BCD31C5142244DA0097D07C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCD31C7142244DA0097D07C /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */,
+				9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */,
+				9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */,
+				9BCD31D4142244DA0097D07C /* dataAppFirstViewController.m */,
+				9BCD31D6142244DA0097D07C /* first.png */,
+				9BCD31D8142244DA0097D07C /* first@2x.png */,
+				9BCD31DA142244DA0097D07C /* dataAppSecondViewController.h */,
+				9BCD31DB142244DA0097D07C /* dataAppSecondViewController.m */,
+				9BCD31DD142244DA0097D07C /* second.png */,
+				9BCD31DF142244DA0097D07C /* second@2x.png */,
+				9BCD31E1142244DA0097D07C /* dataAppFirstViewController.xib */,
+				9BCD31E4142244DA0097D07C /* dataAppSecondViewController.xib */,
+				9BCD31C8142244DA0097D07C /* Supporting Files */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		9BCD31C8142244DA0097D07C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD31C9142244DA0097D07C /* DatingApp-Info.plist */,
+				9BCD31CA142244DA0097D07C /* InfoPlist.strings */,
+				9BCD31CD142244DA0097D07C /* main.m */,
+				9BCD31CF142244DA0097D07C /* DatingApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCD31BE142244DA0097D07C /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCD31E9142244DA0097D07C /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				9BCD31BB142244DA0097D07C /* Sources */,
+				9BCD31BC142244DA0097D07C /* Frameworks */,
+				9BCD31BD142244DA0097D07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 9BCD31BF142244DA0097D07C /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCD31B6142244D90097D07C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9BCD31B9142244D90097D07C /* Build configuration list for PBXProject "DatingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BCD31B4142244D90097D07C;
+			productRefGroup = 9BCD31C0142244DA0097D07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCD31BE142244DA0097D07C /* DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCD31BD142244DA0097D07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCD31CC142244DA0097D07C /* InfoPlist.strings in Resources */,
+				9BCD31D7142244DA0097D07C /* first.png in Resources */,
+				9BCD31D9142244DA0097D07C /* first@2x.png in Resources */,
+				9BCD31DE142244DA0097D07C /* second.png in Resources */,
+				9BCD31E0142244DA0097D07C /* second@2x.png in Resources */,
+				9BCD31E3142244DA0097D07C /* dataAppFirstViewController.xib in Resources */,
+				9BCD31E6142244DA0097D07C /* dataAppSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCD31BB142244DA0097D07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCD31CE142244DA0097D07C /* main.m in Sources */,
+				9BCD31D2142244DA0097D07C /* dataAppAppDelegate.m in Sources */,
+				9BCD31D5142244DA0097D07C /* dataAppFirstViewController.m in Sources */,
+				9BCD31DC142244DA0097D07C /* dataAppSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCD31CA142244DA0097D07C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCD31CB142244DA0097D07C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BCD31E1142244DA0097D07C /* dataAppFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCD31E2142244DA0097D07C /* en */,
+			);
+			name = dataAppFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		9BCD31E4142244DA0097D07C /* dataAppSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCD31E5142244DA0097D07C /* en */,
+			);
+			name = dataAppSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCD31E7142244DA0097D07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BCD31E8142244DA0097D07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCD31EA142244DA0097D07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatingApp/DatingApp-Prefix.pch";
+				INFOPLIST_FILE = "DatingApp/DatingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BCD31EB142244DA0097D07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatingApp/DatingApp-Prefix.pch";
+				INFOPLIST_FILE = "DatingApp/DatingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCD31B9142244D90097D07C /* Build configuration list for PBXProject "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCD31E7142244DA0097D07C /* Debug */,
+				9BCD31E8142244DA0097D07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCD31E9142244DA0097D07C /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCD31EA142244DA0097D07C /* Debug */,
+				9BCD31EB142244DA0097D07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCD31B6142244D90097D07C /* Project object */;
+}
