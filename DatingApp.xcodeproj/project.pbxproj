@@ -20,6 +20,7 @@
 		9BCD31E0142244DA0097D07C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31DF142244DA0097D07C /* second@2x.png */; };
 		9BCD31E3142244DA0097D07C /* dataAppFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31E1142244DA0097D07C /* dataAppFirstViewController.xib */; };
 		9BCD31E6142244DA0097D07C /* dataAppSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD31E4142244DA0097D07C /* dataAppSecondViewController.xib */; };
+		9BCD31EF1422488B0097D07C /* testclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD31EE1422488B0097D07C /* testclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		9BCD31DF142244DA0097D07C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		9BCD31E2142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dataAppFirstViewController.xib; sourceTree = "<group>"; };
 		9BCD31E5142244DA0097D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dataAppSecondViewController.xib; sourceTree = "<group>"; };
+		9BCD31ED1422488B0097D07C /* testclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testclass.h; sourceTree = "<group>"; };
+		9BCD31EE1422488B0097D07C /* testclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +89,7 @@
 		9BCD31C7142244DA0097D07C /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
-				9BCD31EC1422479A0097D07C /* New Group */,
+				9BCD31EC1422479A0097D07C /* images */,
 				9BCD31D0142244DA0097D07C /* dataAppAppDelegate.h */,
 				9BCD31D1142244DA0097D07C /* dataAppAppDelegate.m */,
 				9BCD31D3142244DA0097D07C /* dataAppFirstViewController.h */,
@@ -100,6 +103,8 @@
 				9BCD31E1142244DA0097D07C /* dataAppFirstViewController.xib */,
 				9BCD31E4142244DA0097D07C /* dataAppSecondViewController.xib */,
 				9BCD31C8142244DA0097D07C /* Supporting Files */,
+				9BCD31ED1422488B0097D07C /* testclass.h */,
+				9BCD31EE1422488B0097D07C /* testclass.m */,
 			);
 			path = DatingApp;
 			sourceTree = "<group>";
@@ -115,11 +120,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9BCD31EC1422479A0097D07C /* New Group */ = {
+		9BCD31EC1422479A0097D07C /* images */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group";
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +198,7 @@
 				9BCD31D2142244DA0097D07C /* dataAppAppDelegate.m in Sources */,
 				9BCD31D5142244DA0097D07C /* dataAppFirstViewController.m in Sources */,
 				9BCD31DC142244DA0097D07C /* dataAppSecondViewController.m in Sources */,
+				9BCD31EF1422488B0097D07C /* testclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
